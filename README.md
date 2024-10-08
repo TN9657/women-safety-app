@@ -5,7 +5,24 @@ This website is designed for women's safety, allowing users to capture and store
 
 ## 📂 Folder Structure
 
-/women-safety-app │ ├── /backend │ ├── index.js # Main server file │ ├── /config │ │ └── db.js # MongoDB connection │ ├── /controllers │ │ └── userController.js # Controller for user-related actions │ └── /models │ └── userModel.js # MongoDB user schema │ ├── /frontend │ ├── index.html # Main HTML file │ ├── style.css # Tailwind styles (CDN) │ ├── /assets │ │ └── suspect.png # Placeholder for the suspect image │ └── app.js # JavaScript for frontend interactivity │ ├── package.json # Dependencies and scripts └── README.md # Project documentation
+women-safety-app/
+├── backend/
+│   ├── config/
+│   │   └── db.js             # MongoDB connection
+│   ├── controllers/
+│   │   └── userController.js # Controller for user-related actions
+│   ├── models/
+│   │   └── userModel.js      # MongoDB user schema
+│   └── index.js              # Main server file
+├── frontend/
+│   ├── assets/
+│   │   └── suspect.png       # Placeholder for the suspect image
+│   ├── index.html            # Main HTML file
+│   ├── style.css             # Tailwind styles (CDN)
+│   └── app.js                # JavaScript for frontend interactivity
+├── package.json              # Dependencies and scripts
+└── README.md                 # Project documentation
+
 
 You can access the live version of this project [here](https://your-live-project-link.com).
 
